@@ -47,6 +47,11 @@ public class Home extends javax.swing.JFrame {
         classroom.setText("Classroom Module");
 
         resource.setText("Resource Module");
+        resource.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                resourceActionPerformed(evt);
+            }
+        });
 
         report.setText("Reporting Module");
 
@@ -122,6 +127,13 @@ public class Home extends javax.swing.JFrame {
         Schedule schedule=new Schedule();
         schedule.setVisible(true);
     }//GEN-LAST:event_scheduleActionPerformed
+
+    private void resourceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resourceActionPerformed
+        // TODO add your handling code here:
+        setVisible(false);
+        Resources resources=new Resources();
+        resources.setVisible(true);
+    }//GEN-LAST:event_resourceActionPerformed
 
     /**
      * @param args the command line arguments
