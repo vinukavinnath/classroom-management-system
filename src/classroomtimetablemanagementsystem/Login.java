@@ -58,7 +58,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        cancel.setText("Cancel");
+        cancel.setText("Exit");
         cancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cancelActionPerformed(evt);
