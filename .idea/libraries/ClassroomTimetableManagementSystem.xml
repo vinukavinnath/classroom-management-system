@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ClassroomTimetableManagementSystem">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/ClassroomTimetableManagementSystem.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
